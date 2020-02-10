@@ -4,18 +4,58 @@
 }
 
 .fruit-tray{
-    max-width: 50%; 
+    max-width: 26%; 
+    position: absolute;
+    top: 500px;
+   
         
 }
-
+/* .top-image {
+    position: absolute; top: px; left: 0px;max-width: 50%; 
+} */
 .top-menu {
     display: flex;  
-    float: right;  
+    float: right;
+    margin: 30px;  
+    left:0;
+}
+
+.top-right-section{
+    width: 70%
 }
 
 .top-menu-link {
     color: white;
-    border: 1px solid green;
-    padding: 10px;
+    border: 1px solid;    
     text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+
 }
+
+.top-head{
+    display: flex;
+}
+.top-float {
+    display: flex;
+}
+
+#orange-bg {
+    background-color: orange;
+    padding: 6px;
+}
+
+#green-bg {
+    background-color: green;
+    padding: 6px;
+}
+
+#red-bg {
+    background-color: red;
+    padding: 8px;
+}
+#yellow-bg {
+    background-color: #FF7900;
+    padding: 10px;
+}
+
