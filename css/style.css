@@ -1,0 +1,21 @@
+*{
+    width: 100%;
+    
+}
+
+.fruit-tray{
+    max-width: 50%; 
+        
+}
+
+.top-menu {
+    display: flex;  
+    float: right;  
+}
+
+.top-menu-link {
+    color: white;
+    border: 1px solid green;
+    padding: 10px;
+    text-decoration: none;
+}
