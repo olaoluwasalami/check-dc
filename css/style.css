@@ -1,15 +1,63 @@
 *{
-    width: 100%;
+    max-width: 100%;
+    list-style: none;
     
 }
 
 .fruit-tray{
-    max-width: 26%; 
+    max-width: 30%; 
     position: absolute;
-    top: 500px;
+    top: 600px;
    
         
 }
+
+#About-section {
+    padding-bottom: 50px;
+    right: 50%;
+    background-image: whitesmoke;
+}
+.circle {
+    width: 20%;
+    border-radius: 50%;
+    line-height: 0;
+    background: orange;
+    position: relative;
+    border: 10px solid olivedrab;  
+     
+  }
+  .circle:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+    
+  }
+
+  .circle-txt {
+    position: absolute;
+    display: table;
+   bottom: 50%;
+    width: 100%;
+    text-align: center;
+        
+  }  
+  .circle__wrapper {
+    display: table;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .circle-content{
+      display: table-cell;
+      color: white;
+      padding: 1em;
+      vertical-align: middle;   
+
+      
+}   
+   
+
+
 /* .top-image {
     position: absolute; top: px; left: 0px;max-width: 50%; 
 } */
@@ -59,3 +107,82 @@
     padding: 10px;
 }
 
+#Publications-section{
+    background-image: linear-gradient(to bottom,#56ab2f, #a8e063);
+
+}
+.publication-image {
+    margin-top: 00px;
+    
+}
+
+.border {
+    height: auto;
+    max-width: 20%;
+    background-color: #006400;
+    padding: 40px
+
+}
+
+.button {
+    text-align: center;
+    border-radius: 15px ;
+    border: 1px solid white;
+    padding: 5px
+  }
+
+  #Menu{ background-color: honeydew;
+       }
+  .container {
+      display: flex;
+     
+      
+  }  
+  
+  .list-of-menu {
+      /* flex: 1 1 auto; */
+      margin: 0%;
+      padding: 0%;
+  }
+  .image-of-food{
+      /* flex: 1 1 auto; */
+  }
+
+  hr.solid {
+    border-top: 3px solid orange;
+    max-width: ;
+  }
+  .ingredients{
+     /* flex: 1 1 auto; */
+  }
+
+  .list-style{
+      padding: 56px;
+      text-align: center;
+      color: rosybrown;
+      font-size: small;
+      font-weight: lighter;
+  }
+/* li {
+    
+} */
+
+.center-container {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 60px;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  @media screen and (max-width: 900px) {
+.container {
+    display: grid;
+}
+  }
