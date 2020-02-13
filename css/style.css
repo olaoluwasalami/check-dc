@@ -17,15 +17,21 @@
     right: 50%;
     background-image: whitesmoke;
 }
+
+.center-containers {
+    position: relative;
+    /* text-align: center; */
+    color: white;
+  
+  }
 .circle {
-    width: 20%;
+    width: 100%;
     border-radius: 50%;
     line-height: 0;
-    background: orange;
-    position: relative;
-    border: 10px solid olivedrab;  
-     
+    background-color: orange;
+    position: relative;       
   }
+
   .circle:after {
     content: "";
     display: block;
@@ -34,27 +40,13 @@
   }
 
   .circle-txt {
-    position: absolute;
-    display: table;
-   bottom: 50%;
+    
+   bottom: 50;
     width: 100%;
     text-align: center;
         
   }  
-  .circle__wrapper {
-    display: table;
-    width: 100%;
-    height: 100%;
-  }
-  
-  .circle-content{
-      display: table-cell;
-      color: white;
-      padding: 1em;
-      vertical-align: middle;   
-
-      
-}   
+ 
    
 
 
@@ -84,9 +76,9 @@
 .top-head{
     display: flex;
 }
-.top-float {
+/* .top-float {
     display: flex;
-}
+} */
 
 #orange-bg {
     background-color: orange;
@@ -117,8 +109,9 @@
 }
 
 .border {
+    margin: 40px;
     height: auto;
-    max-width: 20%;
+    width: 120px;
     background-color: #006400;
     padding: 40px
 
@@ -128,7 +121,7 @@
     text-align: center;
     border-radius: 15px ;
     border: 1px solid white;
-    padding: 5px
+    /* padding: 5px */
   }
 
   #Menu{ background-color: honeydew;
@@ -140,22 +133,18 @@
   }  
   
   .list-of-menu {
-      /* flex: 1 1 auto; */
       margin: 0%;
       padding: 0%;
   }
   .image-of-food{
-      /* flex: 1 1 auto; */
+      margin: 0;
   }
 
   hr.solid {
     border-top: 3px solid orange;
-    max-width: ;
+  
   }
-  .ingredients{
-     /* flex: 1 1 auto; */
-  }
-
+  
   .list-style{
       padding: 56px;
       text-align: center;
@@ -167,9 +156,11 @@
     
 } */
 
-.center-container {
+
+
+  .center-container {
     position: relative;
-    text-align: center;
+    /* text-align: center; */
     color: white;
     padding: 60px;
   }
@@ -195,7 +186,20 @@
 
 
   @media screen and (max-width: 900px) {
-.container {
+*{
+    text-align: center;
+}
+    .container {
     display: grid;
+}
+
+.top-menu {
+    display: flex;  
+    
+    left:0;
+}
+
+.top-head{
+    display: none;
 }
   }
